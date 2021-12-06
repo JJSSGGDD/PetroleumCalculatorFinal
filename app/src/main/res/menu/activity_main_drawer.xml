@@ -21,10 +21,10 @@
         <item
             android:id="@+id/nav_gravedadespecifica"
             android:icon="@drawable/ic_baseline_calculategravedadespecifica_24"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_gravedadespecifica" />
         <item
             android:id="@+id/nav_gravedadapi"
             android:icon="@drawable/ic_baseline_calculategravedadapi_24"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_gravedadapi" />
     </group>
 </menu>
