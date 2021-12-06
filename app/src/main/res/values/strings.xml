@@ -11,6 +11,6 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     //AGREGAR NUEVOS ITEMS DE CALCULO
-    <string name="menu_gravedadespecifica">Gravedadespecifica</string>
-    <string name="menu_gravedadapi">Gravedadapi</string>
+    <string name="menu_gravedadespecifica">Gravedad Especifica</string> //AQUI SE MODIFICA EL NOMBRE EN EL MENU
+    <string name="menu_gravedadapi">Gravedad API</string>
 </resources>
