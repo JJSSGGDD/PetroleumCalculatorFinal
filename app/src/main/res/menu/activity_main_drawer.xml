@@ -26,5 +26,9 @@
             android:id="@+id/nav_gravedadapi"
             android:icon="@drawable/ic_baseline_calculategravedadapi_24"
             android:title="@string/menu_gravedadapi" />
+        <item
+            android:id="@+id/nav_numerodereynolds"
+            android:icon="@drawable/ic_baseline_numerodereynolds_24"
+            android:title="@string/menu_numerodereynolds" />
     </group>
 </menu>

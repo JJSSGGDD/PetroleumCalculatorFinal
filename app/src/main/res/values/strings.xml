@@ -13,4 +13,5 @@
     //AGREGAR NUEVOS ITEMS DE CALCULO
     <string name="menu_gravedadespecifica">Gravedad Especifica</string> //AQUI SE MODIFICA EL NOMBRE EN EL MENU
     <string name="menu_gravedadapi">Gravedad API</string>
+    <string name="menu_numerodereynolds">Numero de Reynolds</string>
 </resources>

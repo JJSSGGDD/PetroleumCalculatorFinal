@@ -18,6 +18,21 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
+        android:id="@+id/nav_gravedadapi"
+        android:name="com.example.petroleumcalculator.ui.gravedadapi.GravedadApiFragment"
+        android:label="@string/menu_gravedadapi"
+        tools:layout="@layout/fragment_gravedad_api" />
+    <fragment
+        android:id="@+id/nav_gravedadespecifica"
+        android:name="com.example.petroleumcalculator.ui.gravedadespecifica.GravedadEspecificaFragment"
+        android:label="@string/menu_gravedadespecifica"
+        tools:layout="@layout/fragment_gravedad_especifica" />
+    <fragment
+        android:id="@+id/nav_numerodereynolds"
+        android:name="com.example.petroleumcalculator.ui.numerodereynolds.NumeroDeReynoldsFragment"
+        android:label="@string/menu_numerodereynolds"
+        tools:layout="@layout/fragment_numero_de_reynolds" />
+    <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.petroleumcalculator.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"

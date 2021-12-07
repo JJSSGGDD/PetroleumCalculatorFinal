@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/drawable/ic_baseline_calculategravedadapi_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/drawable/ic_baseline_calculategravedadespecifica_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/drawable/ic_baseline_numerodereynolds_24.xml" value="0.2703125" />
         <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/layout/content_main.xml" value="0.13360507246376813" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_gallery.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_gravedad_api.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_gravedad_especifica.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_numero_de_reynolds.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/SPECIALIZATION/Documents/ANDROID PROJECTS/Petroleum Calculator/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
       </map>
     </option>
