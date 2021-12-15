@@ -20,23 +20,13 @@ import com.example.petroleumcalculator.ui.gravedadespecifica.GravedadEspecificaV
 
 public class GravedadEspecificaFragment extends Fragment {
 
-    private GravedadEspecificaViewModel gravedadEspecificaViewModel;
-    private FragmentGravedadEspecificaBinding binding;
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        gravedadEspecificaViewModel =
-                new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(GravedadEspecificaViewModel.class);
 
-        binding = FragmentGravedadEspecificaBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        gravedadEspecificaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-            }
-        });
+        View root = inflater.inflate(R.layout.fragment_gravedad_especifica, container, false);
         return root;
     }
 }
