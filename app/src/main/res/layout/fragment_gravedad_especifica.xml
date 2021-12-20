@@ -32,7 +32,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/editTextNumberDecimal"
+            android:id="@+id/txtgradosapi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -48,7 +48,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btncalculargravedadespecifica"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
             android:textColorLink="#9C27B0" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btneliminargravedadespecifica"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -74,17 +74,17 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txtgravedadespecifica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="GRAVEDAD ESPECIFICA (GE) : "
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txttipodehidrocarburo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TIPO DE HIDROCARBURO  (°API):"
+            android:text="TIPO DE HIDROCARBURO  (°API) :"
             android:textSize="16sp" />
 
     </LinearLayout>

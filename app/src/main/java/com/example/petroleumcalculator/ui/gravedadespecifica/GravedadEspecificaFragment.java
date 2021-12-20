@@ -1,34 +1,74 @@
 package com.example.petroleumcalculator.ui.gravedadespecifica;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.ViewGroup;
 import android.support.v4.app.Fragment;
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProvider;
 
 import com.example.petroleumcalculator.R;
-import com.example.petroleumcalculator.databinding.FragmentGalleryBinding;
-import com.example.petroleumcalculator.databinding.FragmentGravedadApiBinding;
-import com.example.petroleumcalculator.databinding.FragmentGravedadEspecificaBinding;
-import com.example.petroleumcalculator.ui.gallery.GalleryViewModel;
-import com.example.petroleumcalculator.ui.gravedadespecifica.GravedadEspecificaViewModel;
+
 
 public class GravedadEspecificaFragment extends Fragment {
 
+    private EditText gradosapi;
+    private Button calculargravedadespecifica, eliminargravedadespecifica;
+    private TextView gravedadespecifica, tipodehidrocarburo;
 
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // View rootView = inflater.inflate(R.layout.fragment_gravedad_especifica, container, false);
+        View view = inflater.inflate(R.layout.fragment_gravedad_especifica, container, false);
 
+        //cuando ingresa los datos de usuario
 
-        View root = inflater.inflate(R.layout.fragment_gravedad_especifica, container, false);
-        return root;
+        gradosapi = (EditText) view.findViewById(R.id.txtgradosapi);
+        calculargravedadespecifica = (Button) view.findViewById(R.id.btncalculargravedadespecifica);
+        eliminargravedadespecifica = (Button) view.findViewById(R.id.btneliminargravedadespecifica);
+        gravedadespecifica = (TextView) view.findViewById(R.id.txtgravedadespecifica);
+        tipodehidrocarburo = (TextView) view.findViewById(R.id.txttipodehidrocarburo);
+
+        calculargravedadespecifica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                double ngradosapi = Double.parseDouble(gradosapi.getText().toString());
+                double resultadogravedadespecifica = (141.5 / (ngradosapi + 131.5));
+                gravedadespecifica.setText("GRAVEDAD ESPECIFICA (GE) : " + String.format("%.3f", resultadogravedadespecifica)); //"%2.f" = para solo dos decimales
+            }
+        });
+
+        eliminargravedadespecifica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gradosapi.setText("");
+                gravedadespecifica.setText("\"GRAVEDAD ESPECIFICA (GE) :");
+                tipodehidrocarburo.setText("\"TIPO DE HIDROCARBURO (°API) :");
+            }
+        });
+        return view;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
