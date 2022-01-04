@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="CALCULO GRAVEDAD ESPECIFICA (GE)"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#673AB7"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#9C27B0"
         android:textSize="48sp"
         android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="En Grados API"
+            android:hint="Grados API a 60°F"
             android:inputType="numberDecimal"
             android:textSize="20sp" />
     </LinearLayout>
@@ -87,11 +87,12 @@
             android:text="TIPO DE HIDROCARBURO  (°API) :"
             android:textSize="16sp" />
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/formulagravedadespecifica" />
+
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:src="@tools:sample/avatars" />
 </LinearLayout>
