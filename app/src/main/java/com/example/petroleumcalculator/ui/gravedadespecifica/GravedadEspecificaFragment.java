@@ -37,7 +37,16 @@ public class GravedadEspecificaFragment extends Fragment {
             public void onClick(View v) {
                 double ngradosapi = Double.parseDouble(gradosapi.getText().toString());
                 double resultadogravedadespecifica = (141.5 / (ngradosapi + 131.5));
-                gravedadespecifica.setText("GRAVEDAD ESPECIFICA (GE) : " + String.format("%.3f", resultadogravedadespecifica)); //"%2.f" = para solo dos decimales
+                gravedadespecifica.setText("Gravedad Especifica (GE) : " + String.format("%.3f", resultadogravedadespecifica)); //"%2.f" = para solo dos decimales
+
+                if (ngradosapi <= 10)
+                    tipodehidrocarburo.setText("Tipo de Hidrocarburo : Crudo Extra Pesado");
+                else if (ngradosapi > 10 && ngradosapi <= 22.3)  //&& = funcion logica "y"
+                    tipodehidrocarburo.setText("Tipo de Hidrocarburo : Crudo Pesado");
+                else if (ngradosapi > 22.3 && ngradosapi <= 31.1)  //&& = funcion logica "y"
+                    tipodehidrocarburo.setText("Tipo de Hidrocarburo : Crudo Mediano");
+                else if (ngradosapi > 31.1) //&& = funcion logica "y"
+                    tipodehidrocarburo.setText("Tipo de Hidrocarburo : Crudo Ligero");
             }
         });
 

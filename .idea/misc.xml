@@ -15,7 +15,10 @@
         <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/drawable/ic_baseline_calculategravedadespecifica_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_gravedad_api.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_gravedad_especifica.xml" value="0.19021739130434784" />
-        <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_numero_de_reynolds.xml" value="0.18342391304347827" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_home.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/layout/fragment_numero_de_reynolds.xml" value="0.4" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/menu/activity_main_drawer.xml" value="0.1296875" />
+        <entry key="..\:/Users/SPECIALIZATION/Documents/PROJECTS/Petroleum Calculator/app/src/main/res/menu/main.xml" value="0.1296875" />
       </map>
     </option>
   </component>

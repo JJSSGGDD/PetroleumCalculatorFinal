@@ -87,5 +87,13 @@
             android:layout_height="wrap_content"
             android:text="TIPO DE HIDROCARBURO  (°API) :"
             android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imgimagenejemplo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/formulagravedadespecifica"
+            android:visibility="invisible" />  <!-- Volver una imagen invisble-->
+
     </LinearLayout>
 </LinearLayout>
